@@ -3,4 +3,4 @@ The details are describe in the preprint article from which you visited here.
 
 You need to install Singular package. Then you can process the script by Singular:
 
->> Singular < MyLIB3.txt >MyLIB3.out.txt
+>>>> Singular < MyLIB3.txt >MyLIB3.out.txt
