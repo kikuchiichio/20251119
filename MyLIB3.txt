@@ -228,7 +228,7 @@ proc mat_rank (matrix A)
 }
 ///////////////////////////////////////////////////////////////////////////////
 
-print("Compute r(B),such that the union of r(B) and r(A) is <C>, the classical linear code.");
+print("Compute r(A),such that the union of r(M) and r(A) is <C>, the classical linear code.");
 print(supplement(IntersectCCPH,C));texobj("",supplement(IntersectCCPH,C));
 
 
@@ -515,9 +515,9 @@ rB=submat(rB,2..nrows(rB),1..ncols(rB));
 print("matrix r(B) [The top zero row is removed!]");print(rB);texobj("",rB);
 
 
-print("r(A)");
-print(IntersectCCPH);texobj("",IntersectCCPH);
 print("r(M)");
+print(IntersectCCPH);texobj("",IntersectCCPH);
+print("r(A)");
 print(supplement(IntersectCCPH,C));texobj("",supplement(IntersectCCPH,C));
 print("r(B)");
 print(rB);texobj("",rB);
